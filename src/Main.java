@@ -19,19 +19,13 @@ outputArray2[index2]=salary *0.13f;
 index2++;
         }
 
-        System.out.
-
-println("Input:  "+Arrays.toString(inputArray2));
-        System.out.
-
-println("Output: "+Arrays.toString(outputArray2));
+        System.out.println("Input:  "+Arrays.toString(inputArray2));
+        System.out.println("Output: "+Arrays.toString(outputArray2));
 
         // ==========================================
         // Задача 3: HR отдел
         // ==========================================
-        System.out.
-
-println("\n--- Задача 3 ---");
+        System.out.println("\n--- Задача 3 ---");
 
 int[] inputArray3 = {4500, 7000, 5000, 12000, 3200};
 boolean[] outputArray3 = new boolean[inputArray3.length];
@@ -43,19 +37,13 @@ outputArray3[index3]=bonus >5000;
 index3++;
         }
 
-        System.out.
-
-println("Input:  "+Arrays.toString(inputArray3));
-        System.out.
-
-println("Output: "+Arrays.toString(outputArray3));
+        System.out.println("Input:  "+Arrays.toString(inputArray3));
+        System.out.println("Output: "+Arrays.toString(outputArray3));
 
         // ==========================================
         // Задача 4: Кредитный отдел
         // ==========================================
-        System.out.
-
-println("\n--- Задача 4 ---");
+        System.out.println("\n--- Задача 4 ---");
 
 // Пример с просрочкой (есть отрицательный баланс)
 int[] inputArray4 = {1500, 2300, -500, 4000, 1200};
@@ -71,12 +59,8 @@ isAlwaysPositive =false;
         }
 outputArray4[0]=isAlwaysPositive;
 
-    System.out.
-
-println("Input:  "+Arrays.toString(inputArray4));
-        System.out.
-
-println("Output: "+Arrays.toString(outputArray4));
+    System.out.println("Input:  "+Arrays.toString(inputArray4));
+        System.out.println("Output: "+Arrays.toString(outputArray4));
 
         // ==========================================
         // Задача 5: CEO
@@ -97,20 +81,14 @@ profitableMonthsCount++;
         }
 outputArray5[0]=profitableMonthsCount;
 
-    System.out.
-
-println("Input:  "+Arrays.toString(inputArray5));
-        System.out.
-
-println("Output: "+Arrays.toString(outputArray5));
+    System.out.println("Input:  "+Arrays.toString(inputArray5));
+        System.out.println("Output: "+Arrays.toString(outputArray5));
 
 // ==========================================
 // Задача 1:
 // ==========================================
 int[] weights = {90, 91, 93, 92};
-    System.out.
-
-println("\n--- Задача 1 ---");
+    System.out.println("\n--- Задача 1 ---");
 
 int sum = 0;
 int maxWeight = weights[0];
@@ -128,16 +106,8 @@ sum +=current;
 // Важно: переводим sum в тип double (или float), чтобы деление было точным и с точкой!
 double average = (double) sum / weights.length;
 
-    System.out.
-
-println("Сумма: "+sum);
-    System.out.
-
-println("Максимум: "+maxWeight);
-    System.out.
-
-println("Минимум: "+minWeight);
-    System.out.
-
-println("Среднее: "+average); // Выведет 91.5
+    System.out.println("Сумма: "+sum);
+    System.out.println("Максимум: "+maxWeight);
+    System.out.println("Минимум: "+minWeight);
+    System.out.println("Среднее: "+average); // Выведет 91.5
 }
