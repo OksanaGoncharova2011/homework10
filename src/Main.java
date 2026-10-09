@@ -49,7 +49,6 @@ void main() {
         }
     }
     outputArray4[0] = isAlwaysPositive;
-
     System.out.println("Input:  " + Arrays.toString(inputArray4));
     System.out.println("Output: " + Arrays.toString(outputArray4));
     // ==========================================
